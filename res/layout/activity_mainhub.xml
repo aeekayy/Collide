@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2010-present Facebook.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/com_collide_hub_padding" >
+
+    <TextView
+        android:id="@+id/mainhubheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mainpagetext1"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/com_collide_medium_spacing" />
+
+    <TextView
+        android:id="@+id/ballplaceaddy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="@string/balladdress"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Space 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/com_collide_medium_spacing" />
+    
+    <TextView
+        android:id="@+id/ballplacetimey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="@string/balltime"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <Space 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/com_collide_medium_spacing" />
+    
+    <TextView
+        android:id="@+id/ballplacemessagey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="@string/ballmessage"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <Space 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/com_collide_medium_spacing" />
+    
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout" />
+</LinearLayout>

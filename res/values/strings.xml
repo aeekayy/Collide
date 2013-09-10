@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Collide</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="log_in">Log In With Facebook</string>
+    <string name="login">Login</string>
+    <string name="instructions">Login to create a link to fetch account data</string>
+    <string name="logout">Log out</string>
+    <string name="app_id">634166486618138</string>
+    <string name="mainpagetext1">We will be playing at:</string>
+	<string name="balladdress">3 Lemongrass\nIrvine, CA 92604</string>
+	<string name="balltime">On Saturday, September 14, 2013 at 1:00pm</string>
+	<string name="ballmessage">Come prepared to ball out.  Looks like we have a full squad going in.</string>
+</resources>
